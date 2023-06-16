@@ -1,11 +1,13 @@
 /** @format */
-
-import "./App.css"
+import "./scss/_app.scss"
+import MyNavbar from "./components/MyNavbar"
+import ProductPage from "./pages/ProductPage"
 
 function App() {
   return (
     <div className='App'>
-      <h1>App</h1>
+      <MyNavbar />
+      <ProductPage />
     </div>
   )
 }
