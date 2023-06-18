@@ -1,5 +1,5 @@
 /** @format */
-import "./scss/_app.scss"
+
 import MyNavbar from "./components/MyNavbar"
 import ProductPage from "./pages/ProductPage"
 
