@@ -57,7 +57,7 @@ const ProductPage = () => {
         <div className='product-model-content'>
           <div className='product-model-section01'>
             <img
-              src='/images/icon-close.svg'
+              src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-close.svg'
               alt='close'
               onClick={() => setShowModel(!showModel)}
             />
@@ -65,7 +65,7 @@ const ProductPage = () => {
           <div className='product-model-section02'>
             <div className='previous-div'>
               <img
-                src='/images/icon-previous.svg'
+                src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-previous.svg'
                 alt='next'
                 onClick={goToPreviousImg}
               />
@@ -77,7 +77,7 @@ const ProductPage = () => {
             />
             <div className='next-div'>
               <img
-                src='/images/icon-next.svg'
+                src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-next.svg'
                 alt='next'
                 onClick={goToNextImg}
               />
@@ -109,7 +109,7 @@ const ProductPage = () => {
             <div className='product-page-left-top-item'>
               <div className='previous-div'>
                 <img
-                  src='/images/icon-previous.svg'
+                  src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-previous.svg'
                   alt='next'
                   onClick={goToPreviousImg}
                 />
@@ -121,7 +121,7 @@ const ProductPage = () => {
               />
               <div className='next-div'>
                 <img
-                  src='/images/icon-next.svg'
+                  src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-next.svg'
                   alt='next'
                   onClick={goToNextImg}
                 />
@@ -166,13 +166,13 @@ const ProductPage = () => {
             <div className='quantity-div d-flex align-items-center justify-content-between col-12'>
               <div className='quantity col-3'>
                 <img
-                  src='/images/icon-minus.svg'
+                  src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-minus.svg'
                   alt='minus'
                   onClick={decreseItem}
                 />
                 <span className='fw-bold'>{cartItems}</span>
                 <img
-                  src='/images/icon-plus.svg'
+                  src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-plus.svg'
                   alt='plus'
                   onClick={increseItem}
                 />
@@ -185,7 +185,10 @@ const ProductPage = () => {
                   dispatch(addToCart(product))
                   setCartItems(0)
                 }}>
-                <img src='/images/icon-cart-white.svg' alt='' />
+                <img
+                  src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-cart-white.svg'
+                  alt=''
+                />
                 <span className='px-4'>Add to cart</span>
               </Button>
             </div>

@@ -51,7 +51,10 @@ const MyNavbar = () => {
           <div
             className='nav-right-cart'
             onClick={() => setShowCartMenu(!showCartMenu)}>
-            <img src='/images/icon-cart.svg' alt='cart' />
+            <img
+              src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-cart.svg'
+              alt='cart'
+            />
             {cartItems.cart.length === 0 ? null : (
               <span className='cart-number'>{cartItems.cart.length}</span>
             )}
@@ -59,7 +62,10 @@ const MyNavbar = () => {
           <div
             className='nav-right-avatar'
             onClick={() => setShowCartMenu(!showCartMenu)}>
-            <img src='/images/image-avatar.png' alt='avatar' />
+            <img
+              src='https://sidathdabare.github.io/ecommerce-product-page/images/image-avatar.png'
+              alt='avatar'
+            />
           </div>
 
           <div className={showCartMenu ? "nav-right-hide" : "d-none"}>
@@ -92,7 +98,7 @@ const MyNavbar = () => {
 
                     <img
                       className='col-1 trash-btn'
-                      src='/images/icon-delete.svg'
+                      src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-delete.svg'
                       alt=''
                       onClick={() => {
                         dispatch(removeFromCart(item))
@@ -118,7 +124,7 @@ const MyNavbar = () => {
         <div className='nav-menu-hide-content'>
           <div className='nav-menu-hide-top'>
             <img
-              src='/images/icon-close.svg'
+              src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-close.svg'
               alt='close'
               onClick={() => setShowNavMenu(!showNavMenu)}
             />
