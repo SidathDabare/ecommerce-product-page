@@ -18,7 +18,7 @@ const MyNavbar = () => {
         <div className='nav-left d-flex align-items-center'>
           <div className='menu-icon col-1'>
             <img
-              src='/images/icon-menu.svg'
+              src='https://sidathdabare.github.io/ecommerce-product-page/images/icon-menu.svg'
               alt=''
               onClick={() => {
                 setShowNavMenu(!showNavMenu)
