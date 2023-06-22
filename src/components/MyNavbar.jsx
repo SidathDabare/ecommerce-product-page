@@ -27,7 +27,10 @@ const MyNavbar = () => {
             />
           </div>
           <div className='nav-left-logo col-4'>
-            <img src='/images/logo.svg' alt='logo' />
+            <img
+              src='https://sidathdabare.github.io/ecommerce-product-page/images/logo.svg'
+              alt='logo'
+            />
           </div>
           <div className='nav-left-links col-7 d-flex justify-content-between align-items-center'>
             <div className='nav-left-items'>
